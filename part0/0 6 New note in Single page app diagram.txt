@@ -1,0 +1,12 @@
+0.6: New note in Single page app diagram
+
+	>USER INPUTS VALUE TO SERVER POST : https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+	>SERVER STORES AND RETURNS 302 FOUND
+	>SERVER RETURNS data.json file GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+	
+	>SERVER UPDATES THE FILE WITH USER VALUE AND RETURNS CODE '200 OK' 
+	>SERVER UPDATES THE DOM WITH USER VALUE VIA HTML
+	
+	
+	>USER REQUEST POST new_note_SPA.json POST: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+	>SERVER RETURNS CONSOLE log with:{"message":"note created"}

@@ -1,0 +1,20 @@
+0.4: New note diagram
+
+	>USER REQUEST URL FROM SERVER GETS: https://studies.cs.helsinki.fi/exampleapp/notes
+	>SERVER LOADS CONTENT ON THE DOM
+	>SERVER SENDS HTML DOC TO USER BROWSER : HTML DOC
+
+	>USER REQUEST URL FROM SERVER GETS: https://studies.cs.helsinki.fi/exampleapp/main.css
+	>SERVER LOADS CONTENT ON THE DOM
+	>SERVER SENDS STYLING TO USER BROWSER : CSS FILE
+
+	>USER REQUEST URL FROM SERVER GETS: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+	>SERVER LOADS CONTENT ON THE DOM
+	>SERVER LOADS JAVA SCRIPT
+
+	>SERVER RETURNS DATA.JSON FILE: GET : GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+	>USER INPUTS VALUE TO SERVER POST : https://studies.cs.helsinki.fi/exampleapp/new_note
+	>SERVER STORES AND RETURNS 302 FOUND
+	>SERVER UPDATES THE DOM WITH USER VALUE VIA HTML
+	>SERVER STORES VALUE INTO data.json file GET https://studies.cs.helsinki.fi/exampleapp/data.json
